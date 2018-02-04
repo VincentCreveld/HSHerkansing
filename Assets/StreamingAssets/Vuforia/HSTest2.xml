@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="FlatQR19" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR18" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR17" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR16" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR15" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR14" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR13" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR12" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR11" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR10" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR9" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR8" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR7" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR6" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR5" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR4" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR3" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR2" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR1" size="0.050000 0.025000" />
+    <ImageTarget name="FlatQR0" size="0.050000 0.025000" />
+  </Tracking>
+</QCARConfig>
