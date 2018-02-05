@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LevelBuilder : MonoBehaviour {
 
+	public PlayerStats player;
 	public GameObject fleshKnight;
 	public GameObject flyingMage;
 	public GameObject spectre;
@@ -15,6 +16,23 @@ public class LevelBuilder : MonoBehaviour {
 	private GameObject[] level;
 
 	private void SetupLevelArray() {
+		switch(SetupManager.instance.selectedCharacter) {
+			case SelectedCharacter.mage:
+				player.isNeve = true;
+				player.isAsgor = false;
+				player.isDarius = false;
+				break;
+			case SelectedCharacter.warrior:
+				player.isNeve = false;
+				player.isAsgor = false;
+				player.isDarius = true;
+				break;
+			case SelectedCharacter.dwarf:
+				player.isNeve = false;
+				player.isAsgor = true;
+				player.isDarius = false;
+				break;
+		}
 		level = new GameObject[7];
 		level[0] = fleshKnight;
 		level[1] = flyingMage;
